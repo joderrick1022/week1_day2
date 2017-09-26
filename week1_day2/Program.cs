@@ -12,7 +12,7 @@ namespace week1_day2
         {
             //what data types have we talked about so far!
             char firstInitial = 'o';
-                //characters or chars are sinle or numbers or symbols
+            //characters or chars are sinle or numbers or symbols
 
             bool isTired = true;
             //boolean or bool is true or false.
@@ -22,9 +22,35 @@ namespace week1_day2
             decimal partialNum = 2.18383774744774m;
             double someNumber = 2.123444455;
 
+            //Relational Operands
+            //now lets talk about operators!
+            // + adds two operands
+            // - subtracts
+            //* multiply
+            // / divides operand
+            // % modulus
+            // ++ Increments operator by one
+            // -- decrement decreases value 
+            // == checks 
+
+            int jarrydage = 29;
+            int danielage = 32;
+            Console.WriteLine(jarrydage == danielage);
+
             Console.WriteLine(number);
             Console.WriteLine(partialNum);
             Console.WriteLine(someNumber);
+
+            /*
+            > checks if the left operand is greater than the right
+
+            < checks if the operand on the left is less than the operand on the left.
+
+            >= greater to or equal
+
+            <= less than or equal.
+
+            */
         }
     }
 }
